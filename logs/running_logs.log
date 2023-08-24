@@ -1,0 +1,412 @@
+[2023-07-12 18:30:55,300: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 19:22:41,157: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 19:22:41,163: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 19:22:41,165: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 19:22:41,169: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-12 19:22:42,192: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-12 19:45:01,257: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 19:45:01,710: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-12 19:45:01,712: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 19:45:01,714: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 19:45:01,714: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 19:45:01,715: ERROR: Filename-> main: Message-> 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\abhis\OneDrive\Desktop\mldeploy3\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\abhis\OneDrive\Desktop\mldeploy3\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2023-07-12 19:46:45,482: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 19:46:45,919: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-12 19:46:45,921: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 19:46:45,923: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 19:46:45,924: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 19:46:45,924: INFO: Filename-> common: Message-> created directory at: artifacts/data_ingestion]
+[2023-07-12 19:46:49,765: INFO: Filename-> data_ingestion: Message-> artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5388:0DD0:28D8AE:2F2674:64AEB5CD
+Accept-Ranges: bytes
+Date: Wed, 12 Jul 2023 14:16:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4724-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1689171408.773599,VS0,VE1730
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 51048af6b40eb5a6f1321e15b9bf0558dc6d5033
+Expires: Wed, 12 Jul 2023 14:21:49 GMT
+Source-Age: 1
+
+]
+[2023-07-12 19:46:50,074: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-12 19:46:50,074: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 19:46:50,074: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model started <<<<<<]
+[2023-07-12 19:46:50,078: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 19:46:50,081: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 19:46:50,082: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 19:46:50,086: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-12 19:46:50,633: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-12 19:46:50,920: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-07-12 22:10:16,235: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 22:13:28,414: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:13:28,423: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:13:28,424: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:13:28,427: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 22:13:28,429: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 22:26:51,269: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 22:29:43,810: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:29:43,814: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:29:43,815: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:29:43,817: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 22:29:43,819: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 22:30:24,548: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:30:24,553: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:30:24,556: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:30:24,560: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 22:30:24,563: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 22:33:45,991: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:33:45,994: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:33:45,996: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:33:45,997: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 22:33:45,999: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 22:39:02,793: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:39:02,797: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:39:02,799: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:40:07,147: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:40:07,151: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:40:07,154: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:40:07,156: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 22:40:07,157: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_callbacks/tensorboard_log_dir]
+[2023-07-12 22:40:55,917: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 22:40:55,922: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 22:40:55,924: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 22:40:55,926: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 22:40:55,929: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:01:55,522: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 23:02:11,615: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:02:11,619: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:02:11,621: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:02:11,623: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:02:11,626: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:02:44,871: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:02:44,875: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:02:44,876: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:02:44,877: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:02:44,881: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:03:14,945: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 23:03:19,505: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:03:19,508: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:03:19,509: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:03:19,512: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:03:19,514: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:04:18,932: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:04:18,936: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:04:18,938: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:04:18,941: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:04:18,944: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:04:18,946: INFO: Filename-> common: Message-> created directory at: artifacts\training]
+[2023-07-12 23:21:42,730: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:21:42,735: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:21:42,737: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:22:02,026: INFO: Filename-> common: Message-> json file saved at: scores.json]
+[2023-07-12 23:32:46,270: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 23:32:46,760: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-12 23:32:46,765: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:32:46,767: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:32:46,768: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:32:46,770: INFO: Filename-> common: Message-> created directory at: artifacts/data_ingestion]
+[2023-07-12 23:32:50,708: INFO: Filename-> data_ingestion: Message-> artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8F98:4F3E:2DC5F0:3559E7:64AEEACA
+Accept-Ranges: bytes
+Date: Wed, 12 Jul 2023 18:02:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1689184970.279796,VS0,VE2164
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d9f88cd9e5980e7497f9fc332b7163ef5f9b06f6
+Expires: Wed, 12 Jul 2023 18:07:52 GMT
+Source-Age: 2
+
+]
+[2023-07-12 23:32:51,028: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-12 23:32:51,029: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:32:51,030: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model started <<<<<<]
+[2023-07-12 23:32:51,034: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:32:51,037: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:32:51,037: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:32:51,038: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-12 23:32:51,577: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-12 23:32:51,882: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-07-12 23:32:51,883: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:32:51,884: INFO: Filename-> main: Message-> >>>>>> stage Training started <<<<<<]
+[2023-07-12 23:32:51,887: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:32:51,890: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:32:51,891: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:32:51,892: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:32:51,893: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:32:51,895: ERROR: Filename-> main: Message-> 'WindowsPath' object has no attribute 'endswith']
+Traceback (most recent call last):
+  File "C:\Users\abhis\OneDrive\Desktop\mldeploy3\main.py", line 33, in <module>
+    model_trainer.main()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\pipeline\stage_03_training.py", line 17, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\components\prepare_callback.py", line 31, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\components\prepare_callback.py", line 23, in _create_ckpt_callbacks
+    return tf.keras.callbacks.ModelCheckpoint(
+  File "C:\Users\abhis\AppData\Roaming\Python\Python310\site-packages\keras\src\callbacks.py", line 1369, in __init__
+    if filepath and filepath.endswith(".keras") and options is not None:
+AttributeError: 'WindowsPath' object has no attribute 'endswith'
+[2023-07-12 23:39:37,056: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 23:39:37,491: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-12 23:39:37,493: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:39:37,497: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:39:37,497: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:39:37,497: INFO: Filename-> common: Message-> created directory at: artifacts/data_ingestion]
+[2023-07-12 23:39:37,497: INFO: Filename-> data_ingestion: Message-> File already exists of size: ~ 11345 KB]
+[2023-07-12 23:39:37,697: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-12 23:39:37,697: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:39:37,697: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model started <<<<<<]
+[2023-07-12 23:39:37,699: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:39:37,699: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:39:37,699: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:39:37,699: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-12 23:39:38,209: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-12 23:39:38,546: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-07-12 23:39:38,546: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:39:38,546: INFO: Filename-> main: Message-> >>>>>> stage Training started <<<<<<]
+[2023-07-12 23:39:38,551: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:39:38,553: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:39:38,554: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:39:38,555: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:39:38,557: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:39:38,559: ERROR: Filename-> main: Message-> 'WindowsPath' object has no attribute 'endswith']
+Traceback (most recent call last):
+  File "C:\Users\abhis\OneDrive\Desktop\mldeploy3\main.py", line 33, in <module>
+    model_trainer.main()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\pipeline\stage_03_training.py", line 17, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\components\prepare_callback.py", line 31, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\components\prepare_callback.py", line 23, in _create_ckpt_callbacks
+    return tf.keras.callbacks.ModelCheckpoint(
+  File "C:\Users\abhis\AppData\Roaming\Python\Python310\site-packages\keras\src\callbacks.py", line 1369, in __init__
+    if filepath and filepath.endswith(".keras") and options is not None:
+AttributeError: 'WindowsPath' object has no attribute 'endswith'
+[2023-07-12 23:48:23,947: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 23:48:24,362: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-12 23:48:24,374: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:48:24,377: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:48:24,378: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:48:24,378: INFO: Filename-> common: Message-> created directory at: artifacts/data_ingestion]
+[2023-07-12 23:48:24,379: INFO: Filename-> data_ingestion: Message-> File already exists of size: ~ 11345 KB]
+[2023-07-12 23:48:24,580: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-12 23:48:24,592: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:48:24,592: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model started <<<<<<]
+[2023-07-12 23:48:24,596: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:48:24,599: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:48:24,600: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:48:24,601: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-12 23:48:25,083: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-12 23:48:25,383: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-07-12 23:48:25,384: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:48:25,384: INFO: Filename-> main: Message-> >>>>>> stage Training started <<<<<<]
+[2023-07-12 23:48:25,388: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:48:25,390: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:48:25,391: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:48:25,392: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:48:25,393: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:48:25,394: ERROR: Filename-> main: Message-> 'WindowsPath' object has no attribute 'endswith']
+Traceback (most recent call last):
+  File "C:\Users\abhis\OneDrive\Desktop\mldeploy3\main.py", line 33, in <module>
+    model_trainer.main()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\pipeline\stage_03_training.py", line 17, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\components\prepare_callback.py", line 36, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\components\prepare_callback.py", line 27, in _create_ckpt_callbacks
+    return tf.keras.callbacks.ModelCheckpoint(
+  File "C:\Users\abhis\AppData\Roaming\Python\Python310\site-packages\keras\src\callbacks.py", line 1369, in __init__
+    if filepath and filepath.endswith(".keras") and options is not None:
+AttributeError: 'WindowsPath' object has no attribute 'endswith'
+[2023-07-12 23:51:11,619: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-12 23:51:12,057: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-12 23:51:12,058: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:51:12,063: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:51:12,063: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:51:12,063: INFO: Filename-> common: Message-> created directory at: artifacts/data_ingestion]
+[2023-07-12 23:51:12,065: INFO: Filename-> data_ingestion: Message-> File already exists of size: ~ 11345 KB]
+[2023-07-12 23:51:12,266: INFO: Filename-> main: Message-> >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-12 23:51:12,266: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:51:12,268: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model started <<<<<<]
+[2023-07-12 23:51:12,270: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:51:12,273: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:51:12,274: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:51:12,275: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-12 23:51:12,750: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-12 23:51:13,005: INFO: Filename-> main: Message-> >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-07-12 23:51:13,006: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:51:13,006: INFO: Filename-> main: Message-> >>>>>> stage Training started <<<<<<]
+[2023-07-12 23:51:13,009: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:51:13,012: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:51:13,012: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:51:13,013: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-12 23:51:13,014: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-12 23:51:13,015: INFO: Filename-> common: Message-> created directory at: artifacts\training]
+[2023-07-12 23:52:12,331: INFO: Filename-> main: Message-> >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-07-12 23:52:12,331: INFO: Filename-> main: Message-> *******************]
+[2023-07-12 23:52:12,331: INFO: Filename-> main: Message-> >>>>>> stage Evaluation stage started <<<<<<]
+[2023-07-12 23:52:12,334: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-12 23:52:12,336: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-12 23:52:12,336: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-12 23:52:32,963: INFO: Filename-> common: Message-> json file saved at: scores.json]
+[2023-07-12 23:52:32,964: INFO: Filename-> main: Message-> >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-07-13 14:31:37,556: INFO: Filename-> stage_01_data_ingestion: Message-> >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-13 14:31:37,560: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-13 14:31:37,563: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-13 14:31:37,563: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-13 14:31:37,564: INFO: Filename-> common: Message-> created directory at: artifacts/data_ingestion]
+[2023-07-13 14:31:42,096: INFO: Filename-> data_ingestion: Message-> artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F082:41CA:3A0F05:440DAF:64AFBD73
+Accept-Ranges: bytes
+Date: Thu, 13 Jul 2023 09:01:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4742-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1689238902.705995,VS0,VE1061
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 358ce64f00f5518de9995ddb7c4e31f4f0191ca5
+Expires: Thu, 13 Jul 2023 09:06:42 GMT
+Source-Age: 1
+
+]
+[2023-07-13 14:31:42,368: INFO: Filename-> stage_01_data_ingestion: Message-> >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-13 14:31:58,632: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-13 14:32:01,325: INFO: Filename-> stage_02_prepare_base_model: Message-> *******************]
+[2023-07-13 14:32:01,326: INFO: Filename-> stage_02_prepare_base_model: Message-> >>>>>> stage Prepare base model started <<<<<<]
+[2023-07-13 14:32:01,331: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-13 14:32:01,335: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-13 14:32:01,335: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-13 14:32:01,337: INFO: Filename-> common: Message-> created directory at: artifacts/prepare_base_model]
+[2023-07-13 14:32:02,072: WARNING: Filename-> saving_utils: Message-> Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-07-13 14:32:02,438: INFO: Filename-> stage_02_prepare_base_model: Message-> >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-07-13 14:32:36,812: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-13 14:32:37,296: INFO: Filename-> stage_03_training: Message-> *******************]
+[2023-07-13 14:32:37,297: INFO: Filename-> stage_03_training: Message-> >>>>>> stage Training started <<<<<<]
+[2023-07-13 14:32:37,302: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-13 14:32:37,304: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-13 14:32:37,306: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-13 14:32:37,308: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-07-13 14:32:37,309: INFO: Filename-> common: Message-> created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-13 14:32:37,315: INFO: Filename-> common: Message-> created directory at: artifacts\training]
+[2023-07-13 14:33:53,823: INFO: Filename-> stage_03_training: Message-> >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-07-13 14:33:59,175: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-13 14:33:59,593: INFO: Filename-> stage_04_evaluation: Message-> *******************]
+[2023-07-13 14:33:59,593: INFO: Filename-> stage_04_evaluation: Message-> >>>>>> stage Evaluation stage started <<<<<<]
+[2023-07-13 14:33:59,598: INFO: Filename-> common: Message-> yaml file: config\config.yaml loaded successfully]
+[2023-07-13 14:33:59,601: INFO: Filename-> common: Message-> yaml file: params.yaml loaded successfully]
+[2023-07-13 14:33:59,602: INFO: Filename-> common: Message-> created directory at: artifacts]
+[2023-07-13 14:34:22,323: INFO: Filename-> common: Message-> json file saved at: scores.json]
+[2023-07-13 14:34:22,324: INFO: Filename-> stage_04_evaluation: Message-> >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-07-13 16:17:25,175: INFO: Filename-> utils: Message-> NumExpr defaulting to 8 threads.]
+[2023-07-13 16:17:25,729: INFO: Filename-> _internal: Message-> [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.77:8080]
+[2023-07-13 16:17:25,730: INFO: Filename-> _internal: Message-> [33mPress CTRL+C to quit[0m]
+[2023-07-13 16:17:34,071: INFO: Filename-> _internal: Message-> 127.0.0.1 - - [13/Jul/2023 16:17:34] "GET / HTTP/1.1" 200 -]
+[2023-07-13 16:17:38,178: INFO: Filename-> _internal: Message-> 192.168.29.77 - - [13/Jul/2023 16:17:38] "GET / HTTP/1.1" 200 -]
+[2023-07-13 16:18:17,443: ERROR: Filename-> app: Message-> Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\abhis\anaconda3\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhis\anaconda3\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhis\anaconda3\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhis\anaconda3\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhis\anaconda3\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\abhis\anaconda3\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\abhis\OneDrive\Desktop\mldeploy3\app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\abhis\onedrive\desktop\mldeploy3\src\cnnClassifier\pipeline\prediction.py", line 15, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+  File "C:\Users\abhis\AppData\Roaming\Python\Python310\site-packages\keras\src\utils\image_utils.py", line 423, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "C:\Users\abhis\anaconda3\lib\site-packages\PIL\Image.py", line 3283, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000023AD17CF510>
+[2023-07-13 16:18:17,470: INFO: Filename-> _internal: Message-> 127.0.0.1 - - [13/Jul/2023 16:18:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
